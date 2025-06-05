@@ -1,2 +1,2 @@
 # FlowNetwork
-An implementation of the Ford-Fulkerson algorithm to find the maximum possible flow able to be pushed through a network.
+An implementation of the Ford-Fulkerson algorithm to find the maximum possible flow able to be pushed through a network. Through residual graph manipulation, the algorithm is able to successfully find the best combination of flows to be pushed. Other algorithms would mistakenly push all the flow through a specific path, and ignore combinations of flow used in tandem. More on the proof of correctness and inner workings of the algorithm can be found here: https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/07NetworkFlowI.pdf
